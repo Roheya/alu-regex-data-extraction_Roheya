@@ -1,0 +1,47 @@
+{
+  "official": [
+    "admin@alueducation.com",
+    "k.abara@alueducation.com"
+  ],
+  "alumni": [
+    "t.okonkwo@alumni.alueducation.com",
+    "t.okonkwo@alumni.alueducation.com"
+  ],
+  "si": [
+    "s.mensah@si.alueducation.com"
+  ],
+  "general": [
+    "jane.doe89@gmail.com",
+    "t.okonkwo@alumni.alueducation.com",
+    "t.okonkwo@alumni.alueducation.com",
+    "admin@alueducation.com",
+    "s.mensah@si.alueducation.com",
+    "notreal@alueducationn.com",
+    "typo@alu-education.com",
+    "someone@alueducation.com.attacker.net",
+    "k.abara@alueducation.com",
+    "kabara.personal@yahoo.com"
+  ],
+  "phones": {
+    "valid": [
+      "(555) 219-4483",
+      "555.881.2290",
+      "+1 555-402-7761",
+      "234-802-555-0199",
+      "555-771-2200",
+      "+233 55 123 4567",
+      "555 902 1187",
+      "111111111111111"
+    ],
+    "invalid": [
+      "4539 1488 0343 6467",
+      "4556-7375-8689-9855",
+      "5412 7512 3412 3456",
+      "5412-7512-3412-3456",
+      "6011000000000004",
+      "1111111111111111111",
+      "1111111111111111111",
+      "1111111111111111111"
+    ]
+  }
+}
