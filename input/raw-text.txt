@@ -1,0 +1,82 @@
+SUPPORT TICKET EXPORT — batch_2026_08_21.log
+==================================================
+
+[Ticket #4471] Submitted via web form
+From: jane.doe89@gmail.com
+Subject: Unable to complete payment on order #88213
+
+Hi team, I tried to check out three times last night and it keeps failing.
+My card is 4539 1488 0343 6467 and it's definitely not expired. I even tried
+my backup card 4556-7375-8689-9855 and got the same error. Can someone call
+me at (555) 219-4483 or my cell 555.881.2290 to sort this out? I'm free after
+3pm EST. You can also reach my husband at +1 555-402-7761 if I miss the call.
+
+Thanks,
+Jane
+
+--------------------------------------------------
+
+[Ticket #4472] Submitted via mobile app
+From: t.okonkwo@alumni.alueducation.com
+Subject: Alumni portal login broken
+
+Hey, I graduated last year and my alumni email t.okonkwo@alumni.alueducation.com
+isn't letting me log into the careers portal at https://careers.alu.example.org/login
+Tried resetting from http://alu.example.org/reset-password?user=t.okonkwo but the
+link just 404s. Also tried www.alu-example.org/help which redirects somewhere weird.
+Phone: 234-802-555-0199 (Nigeria, so please account for the timezone).
+
+--------------------------------------------------
+
+[Ticket #4473] Internal note — flagged by automod
+Raw payload received:
+"'; DROP TABLE users; -- <script>alert('pwned')</script> reset my password NOW"
+Associated email: admin@alueducation.com
+Flag reason: possible injection attempt embedded in support message body.
+Do NOT execute, log full payload with sensitive fields redacted only.
+
+--------------------------------------------------
+
+[Ticket #4474] Submitted via email
+From: s.mensah@si.alueducation.com
+Subject: Duplicate charge on my statement
+
+I was charged twice for the SI trip deposit. Card ending was used:
+5412 7512 3412 3456 first, then 5412-7512-3412-3456 again on the retry
+(I think that's actually the same card, just formatted differently in your
+system). Reference link for the receipt: https://billing.alu.example.org/r/9981a
+Call me anytime at 555-771-2200 ext. 4, or +233 55 123 4567 if that's easier.
+
+--------------------------------------------------
+
+[Ticket #4475] Submitted via web form
+From: notreal@alueducationn.com
+Subject: test ticket please ignore
+
+this is not a real alu email just testing your form validation lol
+also here's a fake email typo@alu-education.com and another weird one
+someone@alueducation.com.attacker.net trying to look official
+
+--------------------------------------------------
+
+[Ticket #4476] Submitted via web form
+From: k.abara@alueducation.com
+Subject: Refund status?
+
+Following up on ticket #4471 above (not mine, saw it in the shared thread by
+mistake — please disregard, this was a copy-paste error on our end).
+My own contact info: kabara.personal@yahoo.com, mobile 555 902 1187.
+Card on file for MY refund: 6011000000000004
+Site link if it helps: bit.ly/refund-status-check
+Full URL just in case: http://support.alu.example.org/tickets/4476?ref=email
+
+--------------------------------------------------
+
+[Ticket #4477] Auto-generated system alert
+Suspicious input detected on contact form: field "phone" contained
+"111111111111111111111111111111111111111111111111111111111111111111111111"
+(76 repeated digits) — flagged for review, not processed as a phone number.
+Submitter email on file: unknown@unknown
+
+==================================================
+END OF BATCH — 7 tickets, 1 auto-flagged, 1 test/invalid submission
