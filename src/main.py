@@ -41,5 +41,11 @@ def mask_card(card):
 masked_cards = [mask_card(card) for card in cards]
 results["credit_cards"] = {"masked": masked_cards}
 
+#URLs extraction
+
+url_pattern = re.compile(r"(https?://[^\s]+|www\.[^\s]+)")
+urls = url_pattern.findall(data)
+
+results["urls"] = urls
 with open("output/sample-output.json", "w") as out:
     json.dump(results, out, indent=2)

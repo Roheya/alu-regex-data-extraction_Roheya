@@ -50,5 +50,12 @@
       "**** **** **** 3456",
       "**** **** **** 0004"
     ]
-  }
+  },
+  "urls": [
+    "https://careers.alu.example.org/login",
+    "http://alu.example.org/reset-password?user=t.okonkwo",
+    "www.alu-example.org/help",
+    "https://billing.alu.example.org/r/9981a",
+    "http://support.alu.example.org/tickets/4476?ref=email"
+  ]
 }
