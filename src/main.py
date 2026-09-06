@@ -29,10 +29,17 @@ for phone in phones:
     else:
         invalid_phones.append(phone)
 
-
 results["phones"] = {"valid": valid_phones, "invalid": invalid_phones}
 
+#credit card number extraction
+card_pattern = re.compile(r"\b(?:\d{4}[-]?){3}\d{4}\b")
+cards = card_pattern.findall(data)
 
+def mask_card(card):
+    digits = re.sub(r"\D", "", card)
+    return "**** **** **** " + digits[-4:]
+masked_cards = [mask_card(card) for card in cards]
+results["credit_cards"] = {"masked": masked_cards}
 
 with open("output/sample-output.json", "w") as out:
     json.dump(results, out, indent=2)
