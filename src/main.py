@@ -12,6 +12,14 @@ patterns ={
 
 results = {cat: patterns[cat].findall(data) for cat in patterns}
 
+#identify invalid ALU lookalike emails
+invalid = []
+for email in results["general"]:
+    if email.endswith("alueducationn.com")or \
+            email.endswith("alu-education.com") or \
+            ".attacker.net" in email:
+                invalid.append(email)
+results["invalid"] = invalid
 
 
 #phone number validation
