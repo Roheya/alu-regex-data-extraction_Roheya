@@ -55,5 +55,12 @@ url_pattern = re.compile(r"(https?://[^\s]+|www\.[^\s]+)")
 urls = url_pattern.findall(data)
 
 results["urls"] = urls
+#unsafe playload detection
+payload_pattern = re.compile(r"(DROP\s+TABLE|<script>|--)", re.IGNORECASE)
+payloads = payload_pattern.findall(data)
+results["payloads"] = payloads
+
+
+
 with open("output/sample-output.json", "w") as out:
     json.dump(results, out, indent=2)
